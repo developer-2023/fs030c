@@ -34,34 +34,37 @@
             right: 10px;
         }
         .container img {
-            /* position: fixed; */
+            position: fixed;
             object-fit: cover;
             /* object-fit: contain; */
             height: 100%;
             width: 100%;
         }
-        /* p {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            position: fixed;
-            left: 0;
-            bottom: 0;
+        p {
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            position: absolute;
+            left: 10px;
+            /* right: 0; */
+            top: 0;
             color: red;
             animation-name: greetings;
-            animation-duration: 14.4s;
-        } */
+            animation-duration: 144s;
+        }
 
-        /* @keyframes greetings {
+        @keyframes greetings {
             from {font-size: 1px;}
             to {font-size: 5vmax;}
-        } */
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <img src="https://source.unsplash.com/random/?puppy" alt="">
+        <p>I love U my Princess</p>
     </div>
     <div class="controls">
         <audio controls autoplay loop src="https://cdn.pixabay.com/audio/2023/05/11/audio_5198c12188.mp3"></audio>
     </div>
+
 </body>
 </html>
